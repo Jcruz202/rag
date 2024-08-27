@@ -1,0 +1,124 @@
+{
+"reviews": [
+    {
+        "professor": "Dr. Sarah Thompson",
+        "subject": "Biology",
+        "stars": 4,
+        "review": "Dr. Thompson's lectures are engaging and informative. She's always willing to help during office hours."
+    },
+    {
+        "professor": "Prof. Michael Chen",
+        "subject": "Computer Science",
+        "stars": 5,
+        "review": "Brilliant instructor! Prof. Chen makes complex topics easy to understand and provides great real-world examples."
+    },
+    {
+        "professor": "Dr. Emily Rodriguez",
+        "subject": "Psychology",
+        "stars": 3,
+        "review": "Decent teacher, but assignments can be unclear at times. Lectures are interesting though."
+    },
+    {
+        "professor": "Prof. James Wilson",
+        "subject": "History",
+        "stars": 2,
+        "review": "Dry lectures and heavy workload. Prof. Wilson seems knowledgeable but isn't great at explaining concepts."
+    },
+    {
+        "professor": "Dr. Lisa Patel",
+        "subject": "Chemistry",
+        "stars": 5,
+        "review": "Dr. Patel is passionate about chemistry and it shows. Her labs are well-organized and she's always patient with questions."
+    },
+    {
+        "professor": "Prof. Robert Brown",
+        "subject": "Mathematics",
+        "stars": 4,
+        "review": "Challenging course, but Prof. Brown is excellent at breaking down complex problems. His office hours are very helpful."
+    },
+    {
+        "professor": "Dr. Anna Kowalski",
+        "subject": "Sociology",
+        "stars": 3,
+        "review": "Interesting content, but Dr. Kowalski can sometimes go off on tangents. Grading is fair though."
+    },
+    {
+        "professor": "Prof. David Lee",
+        "subject": "Physics",
+        "stars": 5,
+        "review": "Prof. Lee is an amazing teacher! He makes physics fun and accessible, even for non-majors."
+    },
+    {
+        "professor": "Dr. Maria Garcia",
+        "subject": "Literature",
+        "stars": 4,
+        "review": "Dr. Garcia's passion for literature is contagious. Her classes are thought-provoking and encourage critical thinking."
+    },
+    {
+        "professor": "Prof. Thomas Wright",
+        "subject": "Economics",
+        "stars": 2,
+        "review": "Prof. Wright seems disorganized and often cancels classes. The material is interesting, but the teaching could be better."
+    },
+    {
+        "professor": "Dr. Rachel Green",
+        "subject": "Environmental Science",
+        "stars": 5,
+        "review": "Dr. Green is an inspiration! Her field trips and hands-on projects make learning about the environment exciting."
+    },
+    {
+        "professor": "Prof. Alan Turing",
+        "subject": "Computer Science",
+        "stars": 4,
+        "review": "Prof. Turing is incredibly knowledgeable, but his assignments can be quite challenging. Great for those who want to be pushed."
+    },
+    {
+        "professor": "Dr. Olivia Martinez",
+        "subject": "Art History",
+        "stars": 3,
+        "review": "Dr. Martinez knows her stuff, but the class can be a bit slow-paced at times. Her museum tours are excellent though."
+    },
+    {
+        "professor": "Prof. Samuel Johnson",
+        "subject": "Philosophy",
+        "stars": 5,
+        "review": "Mind-blowing discussions in every class! Prof. Johnson really makes you question your assumptions about the world."
+    },
+    {
+        "professor": "Dr. Elizabeth Taylor",
+        "subject": "Political Science",
+        "stars": 4,
+        "review": "Dr. Taylor brings current events into every lecture, making the subject very relevant. Be prepared for lots of reading!"
+    },
+    {
+        "professor": "Prof. Hiroshi Tanaka",
+        "subject": "Engineering",
+        "stars": 5,
+        "review": "Prof. Tanaka's practical approach to engineering problems is refreshing. His industry connections are invaluable for internships."
+    },
+    {
+        "professor": "Dr. Fatima Al-Farsi",
+        "subject": "Linguistics",
+        "stars": 3,
+        "review": "Dr. Al-Farsi's accent can be hard to understand at times, but her knowledge of languages is impressive. Office hours are very helpful."
+    },
+    {
+        "professor": "Prof. William Shakespeare",
+        "subject": "Creative Writing",
+        "stars": 2,
+        "review": "Prof. Shakespeare seems stuck in the past. His writing prompts are uninspiring and he's not open to modern styles."
+    },
+    {
+        "professor": "Dr. Catherine Lee",
+        "subject": "Neuroscience",
+        "stars": 5,
+        "review": "Dr. Lee is at the cutting edge of her field. Her lectures are fascinating and she's great at explaining complex brain functions."
+    },
+    {
+        "professor": "Prof. George Washington",
+        "subject": "American History",
+        "stars": 4,
+        "review": "Prof. Washington brings history to life with his storytelling. His tests are tough but fair. Definitely recommend this class!"
+    }
+    ]
+}
