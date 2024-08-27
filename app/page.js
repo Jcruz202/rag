@@ -1,6 +1,48 @@
 'use client'
+import React from 'react';
 import { Box, Button, Stack, TextField } from "@mui/material";
 import { useState } from "react";
+
+const formatAIResponse = (content) => {
+  const lines = content.split('\n');
+  let formattedContent = [];
+  let currentParagraph = [];
+
+  lines.forEach((line, index) => {
+    if (line.trim() === '') {
+      if (currentParagraph.length > 0) {
+        formattedContent.push(
+          <Box key={formattedContent.length} mb={2}>
+            {currentParagraph.map((p, i) => (
+              <React.Fragment key={i}>
+                {p}
+                <br />
+              </React.Fragment>
+            ))}
+          </Box>
+        );
+        currentParagraph = [];
+      }
+    } else {
+      currentParagraph.push(line);
+    }
+  });
+
+  if (currentParagraph.length > 0) {
+    formattedContent.push(
+      <Box key={formattedContent.length} mb={2}>
+        {currentParagraph.map((p, i) => (
+          <React.Fragment key={i}>
+            {p}
+            <br />
+          </React.Fragment>
+        ))}
+      </Box>
+    );
+  }
+
+  return formattedContent;
+};
 
 export default function Home() {
   const [messages, setMessages] = useState([
@@ -76,7 +118,7 @@ export default function Home() {
                 borderRadius={16}
                 p={3}
               >
-                {message.content}
+                {message.role === 'assistant' ? formatAIResponse(message.content) : message.content}
               </Box>
             </Box>
           ))}
