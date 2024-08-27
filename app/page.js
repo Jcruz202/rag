@@ -114,7 +114,7 @@ export default function Home() {
           {messages.map((message, index) => (
             <Box key={index} display="flex" justifyContent={message.role === 'assistant' ? 'flex-start' : 'flex-end'}>
               <Box
-                bgcolor={message.role === 'assistant' ? '#363636' : '#6f7070'}
+                bgcolor={message.role === 'assistant' ? '#4a4a4a' : 'primary.main'}
                 color="white"
                 borderRadius={16}
                 p={3}
