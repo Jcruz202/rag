@@ -109,11 +109,12 @@ export default function Home() {
         padding={2}
         spacing={3}
       >
+        <Box display='flex' justifyContent='center'>Welcome to Rate My Professor</Box>
         <Stack direction="column" spacing={2} flexGrow={1} overflow="auto" maxHeight="100%">
           {messages.map((message, index) => (
             <Box key={index} display="flex" justifyContent={message.role === 'assistant' ? 'flex-start' : 'flex-end'}>
               <Box
-                bgcolor={message.role === 'assistant' ? 'primary.main' : 'secondary.main'}
+                bgcolor={message.role === 'assistant' ? '#363636' : '#6f7070'}
                 color="white"
                 borderRadius={16}
                 p={3}
@@ -124,13 +125,37 @@ export default function Home() {
           ))}
         </Stack>
         <Stack direction="row" spacing={2}>
-          <TextField
-            label="Message"
-            fullWidth
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
-          />
-          <Button variant="contained" onClick={sendMessage}>
+        <TextField
+          label="Message"
+          fullWidth
+          value={message}
+          onChange={(e) => setMessage(e.target.value)}
+          sx={{
+            '& .MuiOutlinedInput-root': {
+              '&.Mui-focused': {
+                '& fieldset': {
+                  borderColor: '#363636',
+                },
+              },
+            },
+            '& .MuiInputLabel-root': {
+              '&.Mui-focused': {
+                color: '#363636',
+              },
+            },
+          }}
+        />
+
+          <Button
+            variant="contained"
+            sx={{
+              bgcolor: '#363636',
+              '&:hover': {
+                bgcolor: '#6f7070',
+              },
+            }}
+            onClick={sendMessage}
+          >
             Send
           </Button>
         </Stack>
